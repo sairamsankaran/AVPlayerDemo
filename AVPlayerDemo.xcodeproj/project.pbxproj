@@ -15,6 +15,7 @@
 		F8D5A05119FDA10500312693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D5A05019FDA10500312693 /* Images.xcassets */; };
 		F8D5A05419FDA10500312693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D5A05219FDA10500312693 /* LaunchScreen.xib */; };
 		F8D5A06019FDA10600312693 /* AVPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D5A05F19FDA10600312693 /* AVPlayerDemoTests.m */; };
+		F8D5A06A19FDA11100312693 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D5A06919FDA11100312693 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		F8D5A05919FDA10600312693 /* AVPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D5A05E19FDA10600312693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D5A05F19FDA10600312693 /* AVPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerDemoTests.m; sourceTree = "<group>"; };
+		F8D5A06919FDA11100312693 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		F8D5A06B19FDA1EE00312693 /* Besan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Besan.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D5A06A19FDA11100312693 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +69,7 @@
 		F8D5A03419FDA10500312693 = {
 			isa = PBXGroup;
 			children = (
+				F8D5A06919FDA11100312693 /* AVKit.framework */,
 				F8D5A03F19FDA10500312693 /* AVPlayerDemo */,
 				F8D5A05C19FDA10600312693 /* AVPlayerDemoTests */,
 				F8D5A03E19FDA10500312693 /* Products */,
@@ -85,6 +90,7 @@
 			children = (
 				F8D5A04419FDA10500312693 /* AppDelegate.h */,
 				F8D5A04519FDA10500312693 /* AppDelegate.m */,
+				F8D5A06B19FDA1EE00312693 /* Besan.mp4 */,
 				F8D5A04A19FDA10500312693 /* ViewController.h */,
 				F8D5A04B19FDA10500312693 /* ViewController.m */,
 				F8D5A04D19FDA10500312693 /* Main.storyboard */,

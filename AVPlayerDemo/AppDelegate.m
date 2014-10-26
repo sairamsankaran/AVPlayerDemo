@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+@import AVFoundation;
+@import AVKit;
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    AVPlayerViewController *playerViewController = [[AVPlayerViewController alloc] init];
+    /*NSURL *url = [NSURL URLWithString:@"https://www.youtube.com/watch?v=qcI2_v7Vj2U"];
+    playerViewController.player = [AVPlayer playerWithURL:url];*/
+    playerViewController.player = [AVPlayer playerWithURL:[[NSBundle mainBundle]
+                                                           URLForResource:@"Besan"
+                                                           withExtension:@"mp4"]];
+    [playerViewController.player play];
+    self.window.rootViewController = playerViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
